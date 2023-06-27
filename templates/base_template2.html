@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Colegio San Miguel</title>
+  <link href="{{ url_for('static', filename='css/estilo2.css') }}" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <img src="{{ url_for('static', filename='images/Logo San Miguel f.png') }}" alt="Logo San Miguel" class="image">
+    <h2>Colegio San Miguel</h2>
+  </header>
+  <section>
+    {% block content %}{% endblock %}
+  </section>
+</body>
+<footer>
+  <p>Dirección y teléfono del colegio</p>
+  <label>Hipólito Yrigoyen Sur 960, Rivadavia, San Juan</label><br><label>Teléfono: 4215252</label>
+</footer>
+</html>

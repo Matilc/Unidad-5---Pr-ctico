@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Montserrat&family=Rubik:wght@500&display=swap');
+* {
+    box-sizing: border-box;
+   }
+   body {
+    font-family: 'Rubik','Cinzel', sans-serif;
+    color: black;
+   }
+   header {
+    font-family: 'Cinzel';
+    background-color: #2e0000;
+    padding: 20px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+   }
+   nav {
+    font-size: larger;
+    float: left;
+    width: 20%;
+    height: 650px;
+    background: #7c2a2a;
+    padding: 20px;
+   }
+   nav ul {
+    list-style-type: none;
+    padding: 0;
+   }
+   article, form {
+    font-size: larger;
+    float: left;
+    padding: 20px;
+    width: 80%;
+    background-color: #ffcece;
+    height: 650px;
+   } 
+   a{
+    color:black
+   }
+   a:hover{
+    color:darkred
+   }
+   table {
+    font-family: 'Montserrat';
+    border-radius: 10px;
+    border: #0e0000;
+    background-color: rgb(255, 227, 227);
+    border-style: solid;
+    border-collapse: collapse;
+    padding: 20px;
+    text-align: center;
+   }
+   td, th{
+    border-bottom: 1px solid #0e0000;
+   }
+   td + td, th + th {
+    border-right: 1px solid #0e0000;
+    border-left: 1px solid #0e0000;
+  }
+   th{
+    border: #0e0000;
+    background-color: #0e0000;
+    color:white;
+   }
+   footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+   }
+   body {
+    margin: 0;
+    padding: 0;
+  }
+   @media (max-width: 600px) {
+    nav, article { width: 100%;
+        height: auto;
+        }
+       }
+       input[type='password']{
+        position: relative;
+        display: inline-block;
+        width: 200px;
+        font-size: 16px;
+        color: #333333;
+        background-color: #ffffff;
+        border: 1px solid #1f0000;
+        padding: 5px;
+        border-radius: 4px;
+       }
+       input[type='text']{
+        position: relative;
+        display: inline-block;
+        width: 200px;
+        font-size: 16px;
+        color: #333333;
+        background-color: #ffffff;
+        border: 1px solid #1f0000;
+        padding: 5px;
+        border-radius: 4px;
+       }
+       input[type='email']{
+        position: relative;
+        display: inline-block;
+        width: 200px;
+        font-size: 16px;
+        color: #333333;
+        background-color: #ffffff;
+        border: 1px solid #1f0000;
+        padding: 5px;
+        border-radius: 4px;
+       }
+
+       select {
+        position: relative;
+        display: inline-block;
+        width: 200px;
+        font-size: 16px;
+        color: #333333;
+        background-color: #ffffff;
+        border: 1px solid #1f0000;
+        padding: 5px;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      input[type='submit']{
+        background-color: #ff8585;
+        font-size: large;
+        border-radius: 6px;
+        padding: 10px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #2e0000;
+      }
+      input[type='submit']:hover{
+        background-color: #ffe4e4;
+        font-size: large;
+        border-radius: 6px;
+        padding: 10px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #2e0000;
+      }
+      input[type='submit']:active{
+        background-color: #b64848;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+      }
+      input[type='date']{
+        position: relative;
+        display: inline-block;
+        width: 200px;
+        font-size: 16px;
+        color: #333333;
+        background-color: #ffffff;
+        border: 1px solid #1f0000;
+        padding: 5px;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      img {
+        height: 180px;
+        width: 180px;
+        position: absolute;
+        top: 2,5;
+        left: 0;
+      }
